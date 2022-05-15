@@ -1,0 +1,31 @@
+@import '../../styles.scss';
+
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav{
+  background-color: $secondary-color;
+  color: white;
+  font-family: roboto;
+  font-size: 24px;
+  line-height: 30px;
+
+  ul{
+    display: flex;
+    list-style: none;
+
+    li{
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      cursor: pointer;
+
+      transition-property: background-color, left, top, height;
+      transition-duration: 0.3s, 0.3s;
+    }
+
+    li:hover{
+      background-color: $principal-color;
+    }
+  }
+}
