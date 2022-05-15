@@ -1,6 +1,6 @@
 <nav>
   <ul>
-    <li *ngFor="let seccion of opciones">
+    <li *ngFor="let seccion of opciones" [ngClass]="{'menu-activo': seccion.activo}">
       <a routerLink="/personajes" routerLinkActive="active">{{seccion.texto}}</a>
     </li>
   </ul>

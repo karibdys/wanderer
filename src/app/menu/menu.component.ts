@@ -10,15 +10,20 @@ export class MenuComponent implements OnInit {
   public opciones = [
     {
       texto: "Personajes",
-      url: "/personajes"
+      url: "/personajes",
+      activo: true
     },
     {
       texto: "Partidas",
-      url: "/partidas"
+      url: "/partidas",
+      activo: false
+
     },
     {
       texto: "Mi Info",
-      url: "/info"
+      url: "/info",
+      activo: false
+
     },
   ]
 

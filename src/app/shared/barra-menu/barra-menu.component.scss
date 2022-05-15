@@ -1,0 +1,23 @@
+:host{
+  font-family: 'Roboto';
+  width: 350px;
+  height: 100%;
+  background-color: aqua;
+  margin-right: 1rem;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  .texto-principal {
+    padding-left: 1em;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;    
+  }
+
+  .tarjetas{
+  }
+}
+
